@@ -117,8 +117,16 @@
               "devServerTarget": "tubeckMark:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "tubeckMark"
+    }
+  },
+  "defaultProject": "tubeckMark",
+  "cli": {
+    "analytics": "cfddb8ce-7502-4456-a88b-94fbb95a93f7"
+  }
 }

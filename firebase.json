@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "tubeckMark",
+      "public": "dist/tubeckMark",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

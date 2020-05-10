@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tubeckmark": {
+      "hosting": {
+        "tubeckMark": [
+          "tubeckmark"
+        ]
+      }
+    }
+  }
+}
